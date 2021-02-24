@@ -1,0 +1,9 @@
+.body-container {
+  padding: 0 1rem;
+}
+.sticky-navbar {
+  height: 10vh;
+}
+.welcome-section {
+  display: flex;
+}
