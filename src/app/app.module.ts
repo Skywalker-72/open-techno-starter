@@ -8,13 +8,15 @@ import { DisplayCardsComponent } from './display-cards/display-cards.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { BusinessSectionComponent } from './business-section/business-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     LandingPageComponent,
-    DisplayCardsComponent
+    DisplayCardsComponent,
+    BusinessSectionComponent
   ],
   imports: [
     BrowserModule,
