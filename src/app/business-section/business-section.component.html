@@ -1,1 +1,14 @@
-<p>business-section works!</p>
+<div class='business-container'>
+    <div class="business-section-left">
+        <app-display-cards
+          class="card-{{ i }}"
+          *ngFor="let card of cardContent"
+          [displayCardsContent]="card"
+        ></app-display-cards>
+      </div>
+      <div class='business-section-right'>
+        <div class='boost-your-business'></div>
+        <hr class='horizontal-separator'>
+            <img mat-card-image src='../../assets/Get your hands on a.svg' alt="Welcome Banner">
+      </div>
+</div>

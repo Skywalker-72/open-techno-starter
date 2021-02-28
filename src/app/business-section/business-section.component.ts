@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DisplayCardContent } from '../utils/display-card-content';
 
 @Component({
   selector: 'app-business-section',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BusinessSectionComponent implements OnInit {
 
+  cardContent = DisplayCardContent;
   constructor() { }
 
   ngOnInit(): void {

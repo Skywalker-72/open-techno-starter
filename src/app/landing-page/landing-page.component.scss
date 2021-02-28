@@ -1,8 +1,11 @@
 .body-container {
   padding: 0 1rem;
+  position: relative;
 }
 .sticky-navbar {
+  top: 0;
   height: 10vh;
+  position: sticky;
 }
 .welcome-section {
   display: flex;

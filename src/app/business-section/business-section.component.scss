@@ -1,0 +1,39 @@
+.business-container {
+  display: flex;
+  align-items: center;
+}
+
+.business-section-left {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 4em;
+  grid-column-gap: 3em;
+  justify-content: start;
+  margin: 8em 0 8em;
+}
+.business-section-right {
+  margin: 8em;
+  // display: flex;
+  justify-content: center;
+  img {
+    width: 26em;
+    height: 6em;
+    margin: 1em 0;
+  }
+  .horizontal-separator {
+    background: #000000 0% 0% no-repeat padding-box;
+    height: 0.5em;
+    border-radius: 13px;
+    opacity: 0.7;
+    width: 14em;
+    margin: 2em 0 0 0;
+  }
+}
+.boost-your-business {
+  background: transparent url("../../assets/Boost\ your\ business.svg") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  width: 28em;
+  height: 6em;
+}
